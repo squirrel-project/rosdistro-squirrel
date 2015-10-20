@@ -7,5 +7,5 @@ distributions:
     distribution: indigo/distribution.yaml
     distribution_cache: http://localhost/rosdistro/indigo-cache.yaml.gz
 type: index
-version: 3
+version: 2
 
