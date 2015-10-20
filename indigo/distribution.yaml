@@ -9,6 +9,10 @@ repositories:
   squirrel_common:
     doc:
     release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/squirrel-project/squirrel_common.git
+      version: 0.0.0-0
     source:
       type: git
       url: https://github.com/squirrel-project/squirrel_common.git
