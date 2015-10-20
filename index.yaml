@@ -1,0 +1,11 @@
+%YAML 1.1
+# ROS index file
+# see REP 141: http://ros.org/reps/rep-0141.html
+---
+distributions:
+  indigo:
+    distribution: indigo/distribution.yaml
+    distribution_cache: http://localhost/rosdistro/indigo-cache.yaml.gz
+type: index
+version: 3
+
