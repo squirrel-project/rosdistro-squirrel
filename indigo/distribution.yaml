@@ -7,6 +7,8 @@ release_platforms:
   - trusty
 repositories:
   squirrel_common:
+    doc:
+    release:
     source:
       type: git
       url: https://github.com/squirrel-project/squirrel_common.git
