@@ -11,11 +11,11 @@ repositories:
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: git@github.com:squirrel-project/squirrel_common.git
+      url: https://github.com/squirrel-project/squirrel_common.git
       version: 0.0.0-0
     source:
       type: git
-      url: git@github.com:squirrel-project/squirrel_common.git
+      url: https://github.com/squirrel-project/squirrel_common.git
       version: indigo_dev
     status: developed
 type: distribution
