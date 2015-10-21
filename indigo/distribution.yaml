@@ -10,11 +10,11 @@ repositories:
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/buildbot-squirrel/squirrel_common.git
+      url: https://github.com/ipa320/cob_substitute.git
       version: 0.0.0-0
     source:
       type: git
-      url: https://github.com/buildbot-squirrel/squirrel_common.git
+      url: https://github.com/ipa320/cob_substitute.git
       version: indigo_dev
     status: developed
 type: distribution
