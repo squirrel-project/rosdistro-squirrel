@@ -7,15 +7,13 @@ release_platforms:
   - trusty
 repositories:
   squirrel_common:
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/ipa320/cob_substitute.git
-      version: 0.0.0-0
     source:
       type: git
-      url: https://github.com/ipa320/cob_substitute.git
+      url: https://github.com/squirrel-project/squirrel_common.git
       version: indigo_dev
-    status: developed
+    status: maintained
+
+tags:
+- squirrel
 type: distribution
-version: 1
+version: 2
