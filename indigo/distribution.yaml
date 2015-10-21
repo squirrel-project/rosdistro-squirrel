@@ -12,7 +12,6 @@ repositories:
       url: https://github.com/squirrel-project/squirrel_common.git
       version: indigo_dev
     status: maintained
-
 tags:
 - squirrel
 type: distribution
