@@ -4,8 +4,8 @@
 ---
 distributions:
   indigo:
-    doc_builds: indigo/doc-build.yaml
-    release_builds: indigo/release-build.yaml
-    source_builds: indigo/source-build.yaml
+    doc_builds: [indigo/doc-build.yaml]
+    release_builds: [indigo/release-build.yaml]
+    source_builds: [indigo/source-build.yaml]
 type: index
 version: 2
