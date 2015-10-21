@@ -11,7 +11,7 @@ repositories:
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url:
+      url: https://github.com/buildbot-squirrel/squirrel_common.git
       version: 0.0.0-0
     source:
       type: git
