@@ -7,7 +7,6 @@ release_platforms:
   - trusty
 repositories:
   squirrel_common:
-    doc:
     release:
       tags:
         release: release/indigo/{package}/{version}
