@@ -9,20 +9,15 @@ repositories:
   squirrel_common:
     doc:
       type: git
-      url: https://github.com/squirrel-project/squirrel_common.git
-      version: indigo_dev
+      url: https://github.com/vanadiumlabs/arbotix_ros.git
+      version: indigo-devel
     release:
       packages:
-      - squirrel_3d_mapping_msgs
-      - squirrel_kclhand_msgs
-      - squirrel_localizer_msgs
-      - squirrel_manipulation_msgs
-      - squirrel_mhand_msgs
-      - squirrel_object_perception_msgs
-      - squirrel_person_tracker_msgs
-      - squirrel_planning_knowledge_msgs
-      - squirrel_prediction_msgs
-      - squirrel_rgbd_mapping_msgs
+      - arbotix
+      - arbotix_controllers
+      - arbotix_firmware
+      - arbotix_python
+      - arbotix_sensors
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mikeferguson/arbotix_ros-release.git
