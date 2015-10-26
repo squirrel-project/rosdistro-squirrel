@@ -25,7 +25,7 @@ repositories:
       - squirrel_rgbd_mapping_msgs
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/squirrel-project/squirrel_common.git
+      url: https://github.com/mikeferguson/arbotix_ros-release.git
       version: 0.10.0-0
     source:
       type: git
