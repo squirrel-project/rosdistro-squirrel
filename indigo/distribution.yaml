@@ -23,16 +23,6 @@ repositories:
       version: indigo_dev
     status: developed
   squirrel_robotino:
-    doc:
-      type: git
-      url: https://github.com/vanadiumlabs/arbotix_ros.git
-      version: indigo-devel
-    release:
-      packages:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/mikeferguson/arbotix_ros-release.git
-      version: 0.10.0-0
     source:
       type: git
       url: https://github.com/squirrel-project/squirrel_robotino.git
