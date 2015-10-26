@@ -16,7 +16,6 @@ repositories:
       - arbotix
       - arbotix_controllers
       - arbotix_firmware
-      - arbotix_msgs
       - arbotix_python
       - arbotix_sensors
       tags:
@@ -26,6 +25,27 @@ repositories:
     source:
       type: git
       url: https://github.com/squirrel-project/squirrel_common.git
+      version: indigo_dev
+    status: developed
+  squirrel_robotino:
+    doc:
+      type: git
+      url: https://github.com/vanadiumlabs/arbotix_ros.git
+      version: indigo-devel
+    release:
+      packages:
+      - arbotix
+      - arbotix_controllers
+      - arbotix_firmware
+      - arbotix_python
+      - arbotix_sensors
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/mikeferguson/arbotix_ros-release.git
+      version: 0.10.0-0
+    source:
+      type: git
+      url: https://github.com/squirrel-project/squirrel_robotino.git
       version: indigo_dev
     status: developed
 type: distribution
