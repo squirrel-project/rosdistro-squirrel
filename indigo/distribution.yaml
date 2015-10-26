@@ -22,11 +22,5 @@ repositories:
       url: https://github.com/squirrel-project/squirrel_common.git
       version: indigo_dev
     status: developed
-  squirrel_robotino:
-    source:
-      type: git
-      url: https://github.com/squirrel-project/squirrel_robotino.git
-      version: indigo_dev
-    status: developed
 type: distribution
 version: 1
