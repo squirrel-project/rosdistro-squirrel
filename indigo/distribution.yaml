@@ -13,7 +13,14 @@ repositories:
       version: indigo-devel
     release:
       packages:
-      - squirrel_common
+      - squirrel_3d_mapping_msgs
+      - squirrel_manipulation_msgs
+      - squirrel_mhand_msgs
+      - squirrel_object_perception_msgs
+      - squirrel_planning_knowledge_msgs
+      - squirrel_rgbd_mapping_msgs
+      - squirrel_person_tracker_msgs
+      - squirrel_prediction_msgs
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/squirrel-project/squirrel_common.git
