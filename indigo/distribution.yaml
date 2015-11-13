@@ -9,7 +9,7 @@ repositories:
   squirrel_common:
     doc:
       type: git
-      url: https://github.com/squirrel-project/squirrel_common.git
+      url: https://github.com/ipa320/cob_common.git
       version: indigo_dev
     source:
       type: git
