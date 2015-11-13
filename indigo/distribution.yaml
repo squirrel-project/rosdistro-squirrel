@@ -9,8 +9,20 @@ repositories:
   squirrel_common:
     doc:
       type: git
-      url: https://github.com/ipa320/cob_common.git
-      version: indigo_dev
+      url: https://github.com/vanadiumlabs/arbotix_ros.git
+      version: indigo-devel
+    release:
+      packages:
+      - arbotix
+      - arbotix_controllers
+      - arbotix_firmware
+      - arbotix_msgs
+      - arbotix_python
+      - arbotix_sensors
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/mikeferguson/arbotix_ros-release.git
+      version: 0.10.0-0
     source:
       type: git
       url: https://github.com/squirrel-project/squirrel_common.git
@@ -18,3 +30,4 @@ repositories:
     status: developed
 type: distribution
 version: 1
+
