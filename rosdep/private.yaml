@@ -1,0 +1,30 @@
+squirrel_3d_mapping_msgs:
+  ubuntu: ros-indigo-squirrel_3d_mapping_msgs
+  fedora: ros-indigo-squirrel_3d_mapping_msgs
+squirrel_kclhand_msgs:
+  ubuntu: ros-indigo-squirrel_kclhand_msgs
+  fedora: ros-indigo-squirrel_kclhand_msgs
+squirrel_localizer_msgs:
+  ubuntu: ros-indigo-squirrel_localizer_msgs
+  fedora: ros-indigo-squirrel_localizer_msgs
+squirrel_manipulation_msgs:
+  ubuntu: ros-indigo-squirrel_manipulation_msgs
+  fedora: ros-indigo-squirrel_manipulation_msgs
+squirrel_mhand_msgs:
+  ubuntu: ros-indigo-squirrel_mhand_msgs
+  fedora: ros-indigo-squirrel_mhand_msgs
+squirrel_object_perception_msgs:
+  ubuntu: ros-indigo-squirrel_object_perception_msgs
+  fedora: ros-indigo-squirrel_object_perception_msgs
+squirrel_person_tracker_msgs:
+  ubuntu: ros-indigo-squirrel_person_tracker_msgs
+  fedora: ros-indigo-squirrel_person_tracker_msgs
+squirrel_planning_knowledge_msgs:
+  ubuntu: ros-indigo-squirrel_planning_knowledge_msgs
+  fedora: ros-indigo-squirrel_planning_knowledge_msgs
+squirrel_prediction_msgs:
+  ubuntu: ros-indigo-squirrel_prediction_msgs
+  fedora: ros-indigo-squirrel_prediction_msgs
+squirrel_rgbd_mapping_msgs:
+  ubuntu: ros-indigo-squirrel_rgbd_mapping_msgs
+  fedora: ros-indigo-squirrel_rgbd_mapping_msgs

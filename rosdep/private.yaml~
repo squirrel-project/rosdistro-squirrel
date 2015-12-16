@@ -1,0 +1,27 @@
+ipa_navigation_msgs:
+  ubuntu: ros-indigo-ipa-navigation-msgs
+  fedora: ros-indigo-ipa-navigation-msgs
+ipa_license_verifier:
+  ubuntu: ros-indigo-ipa-license-verifier
+  fedora: ros-indigo-ipa-license-verifier
+ipa_loc_feature_association:
+  ubuntu: ros-indigo-ipa-loc-feature-association
+  fedora: ros-indigo-ipa-loc-feature-association
+ipa_loc_feature_map:
+  ubuntu: ros-indigo-ipa-loc-feature-map
+  fedora: ros-indigo-ipa-loc-feature-map
+ipa_loc_feature_source_laser:
+  ubuntu: ros-indigo-ipa-loc-feature-source-laser
+  fedora: ros-indigo-ipa-loc-feature-source-laser
+ipa_loc_feature_source_slam:
+  ubuntu: ros-indigo-ipa-loc-feature-source-slam
+  fedora: ros-indigo-ipa-loc-feature-source-slam
+ipa_loc_feature_fusion_ekf:
+  ubuntu: ros-indigo-ipa-loc-feature-fusion-ekf
+  fedora: ros-indigo-ipa-loc-feature-fusion-ekf
+tinkerforge_imu_brick:
+  ubuntu: ros-indigo-tinkerforge-imu-brick
+  fedora: ros-indigo-tinkerforge-imu-brick
+goetting_rfid_driver:
+  ubuntu: ros-indigo-goetting-rfid-driver
+  fedora: ros-indigo-goetting-rfid-driver
