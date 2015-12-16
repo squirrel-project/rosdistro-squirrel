@@ -21,7 +21,7 @@ repositories:
       - squirrel_planning_knowledge_msgs
       - squirrel_prediction_msgs
       tags:
-        release: release/indigo/{package}/{version}
+        release: release/indigo/{package}/{version}-0
       url: https://github.com/squirrel-project/squirrel_common-release.git
       version: 0.0.1
     source:
