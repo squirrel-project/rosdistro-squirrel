@@ -38,6 +38,24 @@ repositories:
       url: git@github.com:squirrel-project/squirrel_nav.git
       version: indigo_dev
     status: developed
+  squirrel_driver:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_driver.git
+      version: indigo_dev
+    status: developed
+  squirrel_manipulation:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_manipulation.git
+      version: indigo_dev
+    status: developed
+  squirrel_manipulation:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_manipulation.git
+      version: indigo_dev
+    status: developed
 type: distribution
 version: 1
 
