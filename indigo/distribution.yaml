@@ -13,16 +13,20 @@ repositories:
       version: doc
     release:
       packages:
-      - arbotix
-      - arbotix_controllers
-      - arbotix_firmware
-      - arbotix_msgs
-      - arbotix_python
-      - arbotix_sensors
+      - squirrel_3d_mapping_msgs
+      - squirrel_kclhand_msgs
+      - squirrel_localizer_msgs
+      - squirrel_manipulation_msgs
+      - squirrel_mhand_msgs
+      - squirrel_object_perception_msgs
+      - squirrel_person_tracker_msgs
+      - squirrel_planning_knowledge_msgs
+      - squirrel_prediction_msgs
+      - squirrel_rgbd_mapping_msgs
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/mikeferguson/arbotix_ros-release.git
-      version: 0.10.0-0
+      url: https://github.com/squirrel-project/squirrel_common-release.git
+      version: 0.0.1
     source:
       type: git
       url: https://github.com/squirrel-project/squirrel_common.git
