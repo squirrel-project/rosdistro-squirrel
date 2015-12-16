@@ -22,7 +22,6 @@ repositories:
       - squirrel_person_tracker_msgs
       - squirrel_planning_knowledge_msgs
       - squirrel_prediction_msgs
-      - squirrel_rgbd_mapping_msgs
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/squirrel-project/squirrel_common-release.git
