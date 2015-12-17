@@ -6,6 +6,29 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  cob_common:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_common.git
+      version: indigo_release_candidate
+    release:
+      packages:
+      - brics_actuator
+      - cob_common
+      - cob_description
+      - cob_msgs
+      - cob_srvs
+      - desire_description
+      - raw_description
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/cob_common-release.git
+      version: 0.6.1-0
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_common.git
+      version: indigo_dev
+    status: maintained
   squirrel_common:
     doc:
       type: git
@@ -31,7 +54,7 @@ repositories:
       type: git
       url: https://github.com/squirrel-project/squirrel_common.git
       version: indigo_dev
-    status: developed
+    status: maintained
   squirrel_nav:
     source:
       type: git
@@ -42,12 +65,6 @@ repositories:
     source:
       type: git
       url: git@github.com:squirrel-project/squirrel_driver.git
-      version: indigo_dev
-    status: developed
-  squirrel_manipulation:
-    source:
-      type: git
-      url: git@github.com:squirrel-project/squirrel_manipulation.git
       version: indigo_dev
     status: developed
   squirrel_manipulation:
