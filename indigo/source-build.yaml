@@ -17,6 +17,7 @@ targets:
     - http://archive.ubuntu.com/ubuntu DISTRO-updates main universe
     apt_keys:
     - http://packages.ros.org/ros.key
+    - file:///home/buildbot/.gnupg/pubring.gpg
   ubuntu:
     trusty:
       amd64:
