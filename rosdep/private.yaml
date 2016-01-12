@@ -1,30 +1,30 @@
 squirrel_3d_mapping_msgs:
-  ubuntu: ros-indigo-squirrel_3d_mapping_msgs
-  fedora: ros-indigo-squirrel_3d_mapping_msgs
+  ubuntu: ros-indigo-squirrel-3d-mapping-msgs
+  fedora: ros-indigo-squirrel-3d-mapping-msgs
 squirrel_kclhand_msgs:
-  ubuntu: ros-indigo-squirrel_kclhand_msgs
-  fedora: ros-indigo-squirrel_kclhand_msgs
+  ubuntu: ros-indigo-squirrel-kclhand-msgs
+  fedora: ros-indigo-squirrel-kclhand-msgs
 squirrel_localizer_msgs:
-  ubuntu: ros-indigo-squirrel_localizer_msgs
-  fedora: ros-indigo-squirrel_localizer_msgs
+  ubuntu: ros-indigo-squirrel-localizer-msgs
+  fedora: ros-indigo-squirrel-localizer-msgs
 squirrel_manipulation_msgs:
-  ubuntu: ros-indigo-squirrel_manipulation_msgs
-  fedora: ros-indigo-squirrel_manipulation_msgs
+  ubuntu: ros-indigo-squirrel-manipulation-msgs
+  fedora: ros-indigo-squirrel-manipulation-msgs
 squirrel_mhand_msgs:
-  ubuntu: ros-indigo-squirrel_mhand_msgs
-  fedora: ros-indigo-squirrel_mhand_msgs
+  ubuntu: ros-indigo-squirrel-mhand-msgs
+  fedora: ros-indigo-squirrel-mhand-msgs
 squirrel_object_perception_msgs:
-  ubuntu: ros-indigo-squirrel_object_perception_msgs
-  fedora: ros-indigo-squirrel_object_perception_msgs
+  ubuntu: ros-indigo-squirrel-object-perception-msgs
+  fedora: ros-indigo-squirrel-object-perception-msgs
 squirrel_person_tracker_msgs:
-  ubuntu: ros-indigo-squirrel_person_tracker_msgs
-  fedora: ros-indigo-squirrel_person_tracker_msgs
+  ubuntu: ros-indigo-squirrel-person-tracker-msgs
+  fedora: ros-indigo-squirrel-person-tracker-msgs
 squirrel_planning_knowledge_msgs:
-  ubuntu: ros-indigo-squirrel_planning_knowledge_msgs
-  fedora: ros-indigo-squirrel_planning_knowledge_msgs
+  ubuntu: ros-indigo-squirrel-planning-knowledge-msgs
+  fedora: ros-indigo-squirrel-planning-knowledge-msgs
 squirrel_prediction_msgs:
-  ubuntu: ros-indigo-squirrel_prediction_msgs
-  fedora: ros-indigo-squirrel_prediction_msgs
+  ubuntu: ros-indigo-squirrel-prediction-msgs
+  fedora: ros-indigo-squirrel-prediction-msgs
 squirrel_rgbd_mapping_msgs:
-  ubuntu: ros-indigo-squirrel_rgbd_mapping_msgs
-  fedora: ros-indigo-squirrel_rgbd_mapping_msgs
+  ubuntu: ros-indigo-squirrel-rgbd-mapping-msgs
+  fedora: ros-indigo-squirrel-rgbd-mapping-msgs

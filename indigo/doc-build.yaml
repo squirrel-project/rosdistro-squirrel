@@ -18,9 +18,10 @@ targets:
     - http://packages.ros.org/ros/ubuntu DISTRO main
     - http://archive.ubuntu.com/ubuntu DISTRO main universe
     - http://archive.ubuntu.com/ubuntu DISTRO-updates main universe
+    - http://10.0.1.187/building/ubuntu DISTRO main
     apt_keys:
     - http://packages.ros.org/ros.key
-    - file:///home/buildbot/.gnupg/pubring.gpg
+    - http://10.0.1.187/building/public.key
   ubuntu:
     trusty:
       amd64:
