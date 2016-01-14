@@ -53,7 +53,7 @@ repositories:
   squirrel_robotino:
     source:
       type: git
-      url: git@github.com:squirrel-project/squirrel_robotion.git
+      url: git@github.com:squirrel-project/squirrel_robotino.git
       version: indigo_dev
     status: developed
   squirrel_perception:
