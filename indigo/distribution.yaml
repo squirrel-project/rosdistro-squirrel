@@ -9,7 +9,7 @@ repositories:
   squirrel_common:
     doc:
       type: git
-      url: https://github.com/squirrel-project/squirrel_common.git
+      url: git@github.com:squirrel-project/squirrel_common.git
       version: doc
     release:
       packages:
@@ -25,7 +25,7 @@ repositories:
       - squirrel_rgbd_mapping_msgs
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/squirrel-project/squirrel_common-release.git
+      url: git@github.com:squirrel-project/squirrel_common-release.git
       version: 0.0.4-0
     source:
       type: git
@@ -48,6 +48,48 @@ repositories:
     source:
       type: git
       url: git@github.com:squirrel-project/squirrel_manipulation.git
+      version: indigo_dev
+    status: developed
+  squirrel_robotino:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_robotion.git
+      version: indigo_dev
+    status: developed
+  squirrel_perception:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_perception.git
+      version: indigo_dev
+    status: developed
+  squirrel_planning:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_planning.git
+      version: indigo_dev
+    status: developed
+  squirrel_robotino_arm:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_robotino_arm.git
+      version: indigo_dev
+    status: developed
+  squirrel_kclhand:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_kclhand.git
+      version: indigo_dev
+    status: developed
+  squirrel_hri:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_hri.git
+      version: indigo_dev
+    status: developed
+  squirrel_scenarios:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_scenarios.git
       version: indigo_dev
     status: developed
 type: distribution
