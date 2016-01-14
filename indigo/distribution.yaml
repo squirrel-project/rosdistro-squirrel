@@ -50,12 +50,6 @@ repositories:
       url: git@github.com:squirrel-project/squirrel_manipulation.git
       version: indigo_dev
     status: developed
-  squirrel_robotino:
-    source:
-      type: git
-      url: git@github.com:squirrel-project/squirrel_robotino.git
-      version: indigo_dev
-    status: developed
   squirrel_perception:
     source:
       type: git
@@ -68,12 +62,6 @@ repositories:
       url: git@github.com:squirrel-project/squirrel_planning.git
       version: indigo_dev
     status: developed
-  squirrel_robotino_arm:
-    source:
-      type: git
-      url: git@github.com:squirrel-project/squirrel_robotino_arm.git
-      version: indigo_dev
-    status: developed
   squirrel_kclhand:
     source:
       type: git
@@ -84,12 +72,6 @@ repositories:
     source:
       type: git
       url: git@github.com:squirrel-project/squirrel_hri.git
-      version: indigo_dev
-    status: developed
-  squirrel_scenarios:
-    source:
-      type: git
-      url: git@github.com:squirrel-project/squirrel_scenarios.git
       version: indigo_dev
     status: developed
 type: distribution
