@@ -81,7 +81,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: /home/buildbot/release/occupancy_grid_utils-release
-      version: 0.0.7-0
+      version: debian/indigo/trusty/occupancy_grid_utils
 type: distribution
 version: 1
 
