@@ -1,3 +1,4 @@
+##SQUIREL COMMON
 squirrel_3d_mapping_msgs:
   ubuntu: ros-indigo-squirrel-3d-mapping-msgs
   fedora: ros-indigo-squirrel-3d-mapping-msgs
@@ -28,3 +29,26 @@ squirrel_prediction_msgs:
 squirrel_rgbd_mapping_msgs:
   ubuntu: ros-indigo-squirrel-rgbd-mapping-msgs
   fedora: ros-indigo-squirrel-rgbd-mapping-msgs
+
+##ROSPLAN
+rosplan_dispatch_msgs:
+  ubuntu: ros-indigo-rosplan-dispatch-msgs
+rosplan_knowledge_msgs:
+  ubuntu: ros-indigo-rosplan-knowledge-msgs
+
+##UIBK MOVEIT TOOLS
+iis_fast_ik:
+  ubuntu: ros-indigo-iis-fast-ik
+iis_robot_dep:
+  ubuntu: ros-indigo-iis-robot-dep
+iis_robot_dep:
+  ubuntu: ros-indigo-iis-robot-dep
+uibk_moveit_adapter:
+  ubuntu: ros-indigo-uibk-moveit-adapter
+uibk_robot_moveit_config:
+  ubuntu: ros-indigo-uibk-robot-moveit-config
+uibk_planning_node:
+  ubuntu: ros-indigo-uibk-planning-node
+uibk_moveit_tools:
+  ubuntu: ros-indigo-uibk-moveit-tools
+
