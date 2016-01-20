@@ -74,6 +74,14 @@ repositories:
       url: git@github.com:squirrel-project/squirrel_hri.git
       version: indigo_dev
     status: developed
+  occupancy_grid_utils:
+    release:
+      packages:
+      - occupancy_grid_utils
+      tags:
+        release: release/indigo/{package}/{version}
+      url: /home/buildbot/release/occupancy_grid_utils-release
+      version: 0.0.7-0
 type: distribution
 version: 1
 
