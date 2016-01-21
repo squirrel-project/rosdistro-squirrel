@@ -13,7 +13,6 @@ repositories:
       version: doc
     release:
       packages:
-      - squirrel_common
       - squirrel_3d_mapping_msgs
       - squirrel_kclhand_msgs
       - squirrel_localizer_msgs
