@@ -33,7 +33,7 @@ repositories:
       version: 0.0.5-0
     source:
       type: git
-      url: https://github.com/squirrel-project/squirrel_common.git
+      url: git@github.com:squirrel-project/squirrel_common.git
       version: indigo_dev
     status: maintained
   squirrel_nav:
