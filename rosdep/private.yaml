@@ -1,0 +1,52 @@
+##SQUIREL COMMON
+squirrel_3d_mapping_msgs:
+  ubuntu: ros-indigo-squirrel-3d-mapping-msgs
+squirrel_kclhand_msgs:
+  ubuntu: ros-indigo-squirrel-kclhand-msgs
+squirrel_localizer_msgs:
+  ubuntu: ros-indigo-squirrel-localizer-msgs
+squirrel_manipulation_msgs:
+  ubuntu: ros-indigo-squirrel-manipulation-msgs
+squirrel_mhand_msgs:
+  ubuntu: ros-indigo-squirrel-mhand-msgs
+squirrel_object_perception_msgs:
+  ubuntu: ros-indigo-squirrel-object-perception-msgs
+squirrel_navigation_msgs:
+  ubuntu: ros-indigo-squirrel-navigation-msgs
+squirrel_person_tracker_msgs:
+  ubuntu: ros-indigo-squirrel-person-tracker-msgs
+squirrel_planning_knowledge_msgs:
+  ubuntu: ros-indigo-squirrel-planning-knowledge-msgs
+squirrel_prediction_msgs:
+  ubuntu: ros-indigo-squirrel-prediction-msgs
+squirrel_rgbd_mapping_msgs:
+  ubuntu: ros-indigo-squirrel-rgbd-mapping-msgs
+squirrel_sketch_interface_msgs:
+  ubuntu: ros-indigo-squirrel-sketch-interface-msgs
+robotino_msgs:
+  ubuntu: ros-indigo-robotino-msgs
+robotino_msgs:
+  ubuntu: ros-indigo-robotino-msgs
+
+##ROSPLAN
+rosplan_dispatch_msgs:
+  ubuntu: ros-indigo-rosplan-dispatch-msgs
+rosplan_knowledge_msgs:
+  ubuntu: ros-indigo-rosplan-knowledge-msgs
+
+##UIBK MOVEIT TOOLS
+iis_fast_ik:
+  ubuntu: ros-indigo-iis-fast-ik
+iis_robot_dep:
+  ubuntu: ros-indigo-iis-robot-dep
+iis_robot_dep:
+  ubuntu: ros-indigo-iis-robot-dep
+uibk_moveit_adapter:
+  ubuntu: ros-indigo-uibk-moveit-adapter
+uibk_robot_moveit_config:
+  ubuntu: ros-indigo-uibk-robot-moveit-config
+uibk_planning_node:
+  ubuntu: ros-indigo-uibk-planning-node
+uibk_moveit_tools:
+  ubuntu: ros-indigo-uibk-moveit-tools
+

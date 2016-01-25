@@ -8,15 +8,76 @@ release_platforms:
 repositories:
   squirrel_common:
     doc:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_common.git
+      version: doc
     release:
+      packages:
+      - squirrel_3d_mapping_msgs
+      - squirrel_kclhand_msgs
+      - squirrel_localizer_msgs
+      - squirrel_manipulation_msgs
+      - squirrel_mhand_msgs
+      - squirrel_navigation_msgs
+      - squirrel_object_perception_msgs
+      - squirrel_person_tracker_msgs
+      - squirrel_planning_knowledge_msgs
+      - squirrel_prediction_msgs
+      - squirrel_rgbd_mapping_msgs
+      - squirrel_sketch_interface_msgs
+      - robotino_msgs
+
       tags:
         release: release/indigo/{package}/{version}
-      url: git@github.com:buildbot-squirrel/squirrel_common.git
-      version: 0.0.0-0
+      url: git@github.com:squirrel-project/squirrel_common-release.git
+      version: 0.0.5-0
     source:
       type: git
-      url: git@github.com:buildbot-squirrel/squirrel_common.git
+      url: git@github.com:squirrel-project/squirrel_common.git
+      version: indigo_dev
+    status: maintained
+  squirrel_nav:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_nav.git
+      version: indigo_dev
+    status: developed
+  squirrel_driver:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_driver.git
+      version: indigo_dev
+    status: developed
+  squirrel_manipulation:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_manipulation.git
+      version: indigo_dev
+    status: developed
+  squirrel_perception:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_perception.git
+      version: indigo_dev
+    status: developed
+  squirrel_planning:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_planning.git
+      version: indigo_dev
+    status: developed
+  squirrel_kclhand:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_kclhand.git
+      version: indigo_dev
+    status: developed
+  squirrel_hri:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_hri.git
       version: indigo_dev
     status: developed
 type: distribution
 version: 1
+
