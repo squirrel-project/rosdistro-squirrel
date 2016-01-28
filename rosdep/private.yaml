@@ -50,3 +50,5 @@ uibk_planning_node:
 uibk_moveit_tools:
   ubuntu: ros-indigo-uibk-moveit-tools
 
+csm:
+  ubuntu: ros-indigo-csm
