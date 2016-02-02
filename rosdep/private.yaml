@@ -33,6 +33,9 @@ rosplan_dispatch_msgs:
   ubuntu: ros-indigo-rosplan-dispatch-msgs
 rosplan_knowledge_msgs:
   ubuntu: ros-indigo-rosplan-knowledge-msgs
+rosplan_planning_system:
+  ubuntu: ros-indigo-rosplan-planning-system
+
 
 ##UIBK MOVEIT TOOLS
 iis_fast_ik:
