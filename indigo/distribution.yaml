@@ -27,6 +27,7 @@ repositories:
       - squirrel_prediction_msgs
       - squirrel_rgbd_mapping_msgs
       - squirrel_sketch_interface_msgs
+      - squirrel_speech_msgs
       tags:
         release: release/indigo/{package}/{version}
       url: git@github.com:squirrel-project/squirrel_common-release.git

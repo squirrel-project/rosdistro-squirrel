@@ -23,6 +23,8 @@ squirrel_rgbd_mapping_msgs:
   ubuntu: ros-indigo-squirrel-rgbd-mapping-msgs
 squirrel_sketch_interface_msgs:
   ubuntu: ros-indigo-squirrel-sketch-interface-msgs
+squirrel_speech_msgs:
+  ubuntu: ros-indigo-squirrel-speech-msgs
 robotino_msgs:
   ubuntu: ros-indigo-robotino-msgs
 robotino_msgs:
