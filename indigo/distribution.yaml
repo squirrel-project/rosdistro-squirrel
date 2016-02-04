@@ -28,10 +28,11 @@ repositories:
       - squirrel_rgbd_mapping_msgs
       - squirrel_sketch_interface_msgs
       - squirrel_speech_msgs
+      - squirrel_waypoint_msgs
       tags:
         release: release/indigo/{package}/{version}
       url: git@github.com:squirrel-project/squirrel_common-release.git
-      version: 0.0.7-0
+      version: 0.0.8-0
     source:
       type: git
       url: git@github.com:squirrel-project/squirrel_common.git
@@ -67,12 +68,12 @@ repositories:
       url: git@github.com:squirrel-project/squirrel_planning.git
       version: indigo_dev
     status: developed
-  squirrel_kclhand:
-    source:
-      type: git
-      url: git@github.com:squirrel-project/squirrel_kclhand.git
-      version: indigo_dev
-    status: developed
+#  squirrel_kclhand:
+#    source:
+#      type: git
+#      url: git@github.com:squirrel-project/squirrel_kclhand.git
+#      version: indigo_dev
+#    status: developed
   squirrel_hri:
     source:
       type: git

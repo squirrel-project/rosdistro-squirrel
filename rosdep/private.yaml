@@ -27,8 +27,8 @@ squirrel_speech_msgs:
   ubuntu: ros-indigo-squirrel-speech-msgs
 robotino_msgs:
   ubuntu: ros-indigo-robotino-msgs
-robotino_msgs:
-  ubuntu: ros-indigo-robotino-msgs
+squirrel_waypoint_msgs:
+  ubuntu: ros-indigo-squirrel-waypoint-msgs
 
 ##ROSPLAN
 rosplan_dispatch_msgs:
