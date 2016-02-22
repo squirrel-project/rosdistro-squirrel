@@ -46,14 +46,14 @@ iis_robot_dep:
   ubuntu: ros-indigo-iis-robot-dep
 iis_robot_dep:
   ubuntu: ros-indigo-iis-robot-dep
-uibk_moveit_adapter:
-  ubuntu: ros-indigo-uibk-moveit-adapter
-uibk_robot_moveit_config:
-  ubuntu: ros-indigo-uibk-robot-moveit-config
+#uibk_moveit_adapter:
+#  ubuntu: ros-indigo-uibk-moveit-adapter
+#uibk_robot_moveit_config:
+#  ubuntu: ros-indigo-uibk-robot-moveit-config
 uibk_planning_node:
   ubuntu: ros-indigo-uibk-planning-node
-uibk_moveit_tools:
-  ubuntu: ros-indigo-uibk-moveit-tools
+#uibk_moveit_tools:
+#  ubuntu: ros-indigo-uibk-moveit-tools
 
 csm:
   ubuntu: ros-indigo-csm
