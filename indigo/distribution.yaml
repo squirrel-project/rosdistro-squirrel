@@ -6,6 +6,12 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  squirrel_calibration:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_calibration.git
+      version: indigo_dev
+    status: developed
   squirrel_common:
     doc:
       type: git
@@ -13,11 +19,17 @@ repositories:
       version: doc
     release:
       packages:
+      - robotino_description
       - robotino_msgs
+      - softhand_description
+      - squirrel_2d_localizer_msgs
+      - squirrel_3d_localizer_msgs
       - squirrel_3d_mapping_msgs
       - squirrel_common
+      - squirrel_dynamic_filter_msgs
+      - squirrel_footprint_observer_msgs
+      - squirrel_hri_msgs
       - squirrel_kclhand_msgs
-      - squirrel_localizer_msgs
       - squirrel_manipulation_msgs
       - squirrel_mhand_msgs
       - squirrel_navigation_msgs
@@ -25,19 +37,32 @@ repositories:
       - squirrel_person_tracker_msgs
       - squirrel_planning_knowledge_msgs
       - squirrel_prediction_msgs
-      - squirrel_rgbd_mapping_msgs
-      - squirrel_sketch_interface_msgs
+      - squirrel_safety_msgs
       - squirrel_speech_msgs
+      - squirrel_vad_msgs
+      - squirrel_view_controller_msgs
       - squirrel_waypoint_msgs
       tags:
         release: release/indigo/{package}/{version}
       url: git@github.com:squirrel-project/squirrel_common-release.git
-      version: 0.0.10-0
+      version: 0.0.28-0
     source:
       type: git
       url: git@github.com:squirrel-project/squirrel_common.git
       version: indigo_dev
     status: maintained
+#  squirrel_substitute:
+#    source:
+#      type: git
+#      url: git@github.com:squirrel-project/squirrel_substitute.git
+#      version: indigo_dev
+#    status: developed
+  squirrel_robotino:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_robotino.git
+      version: indigo_dev
+    status: developed
   squirrel_nav:
     source:
       type: git
@@ -54,6 +79,12 @@ repositories:
     source:
       type: git
       url: git@github.com:squirrel-project/squirrel_manipulation.git
+      version: indigo_dev
+    status: developed
+  squirrel_motion_planner:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_motion_planner.git
       version: indigo_dev
     status: developed
   squirrel_perception:
@@ -80,6 +111,18 @@ repositories:
       url: git@github.com:squirrel-project/squirrel_hri.git
       version: indigo_dev
     status: developed
+# kukadu:
+#   source:
+#     type: git
+#     url: git@github.com:squirrel-project/kukadu.git
+#     version: indigo_dev
+#   status: developed
+#  website:
+#    source:
+#      type: git
+#      url: git@github.com:squirrel-project/website.git
+#      version: master
+#    status: developed
 type: distribution
 version: 1
 
