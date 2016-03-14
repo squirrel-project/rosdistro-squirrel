@@ -68,24 +68,24 @@ repositories:
       url: git@github.com:squirrel-project/squirrel_planning.git
       version: indigo_dev
     status: developed
-#  squirrel_kclhand:
-#    source:
-#      type: git
-#      url: git@github.com:squirrel-project/squirrel_kclhand.git
-#      version: indigo_dev
-#    status: developed
+  squirrel_kclhand:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_kclhand.git
+      version: indigo_dev
+    status: developed
   squirrel_hri:
     source:
       type: git
       url: git@github.com:squirrel-project/squirrel_hri.git
       version: indigo_dev
     status: developed
-  website:
-    source:
-      type: git
-      url: git@github.com:squirrel-project/website.git
-      version: master
-    status: developed
+#  website:
+#    source:
+#      type: git
+#      url: git@github.com:squirrel-project/website.git
+#      version: master
+#    status: developed
 type: distribution
 version: 1
 
