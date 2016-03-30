@@ -6,6 +6,12 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  squirrel_calibration:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_calibration.git
+      version: indigo_dev
+    status: developed
   squirrel_common:
     doc:
       type: git
