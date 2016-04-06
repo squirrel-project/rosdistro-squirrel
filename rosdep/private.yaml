@@ -1,6 +1,8 @@
 ##SQUIREL COMMON
 squirrel_3d_mapping_msgs:
   ubuntu: ros-indigo-squirrel-3d-mapping-msgs
+squirrel_hri_msgs:
+  ubuntu: ros-indigo-squirrel-hri-msgs
 squirrel_kclhand_msgs:
   ubuntu: ros-indigo-squirrel-kclhand-msgs
 squirrel_localizer_msgs:
@@ -55,5 +57,8 @@ uibk_planning_node:
 #uibk_moveit_tools:
 #  ubuntu: ros-indigo-uibk-moveit-tools
 
+##KCL HAND
+kclhand_control:
+  ubuntu: ros-indigo-kcl-control
 csm:
   ubuntu: ros-indigo-csm
