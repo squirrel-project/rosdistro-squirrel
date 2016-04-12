@@ -61,6 +61,8 @@ uibk_planning_node:
 kclhand_control:
   ubuntu: ros-indigo-kclhand-control
 
+squirrel_expression:
+  ubuntu: ros-indigo-squirrel-expression
 dlib:
   ubuntu: libdlib-dev
 csm:
