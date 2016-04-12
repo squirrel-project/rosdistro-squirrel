@@ -60,5 +60,8 @@ uibk_planning_node:
 ##KCL HAND
 kclhand_control:
   ubuntu: ros-indigo-kclhand-control
+
+dlib:
+  ubuntu: libdlib-dev
 csm:
   ubuntu: ros-indigo-csm
