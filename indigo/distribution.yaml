@@ -45,6 +45,18 @@ repositories:
       url: git@github.com:squirrel-project/squirrel_common.git
       version: indigo_dev
     status: maintained
+  squirrel_substitute:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_substitute.git
+      version: indigo_dev
+    status: developed
+  squirrel_robotino:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/squirrel_robotino.git
+      version: indigo_dev
+    status: developed
   squirrel_nav:
     source:
       type: git
