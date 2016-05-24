@@ -61,6 +61,21 @@ uibk_planning_node:
 kclhand_control:
   ubuntu: ros-indigo-kclhand-control
 
+##SQUIRREL SUBSTITUTE
+airskin:
+  ubuntu: ros-indigo-airskin
+cf_control:
+	ubuntu: ros-indigo-cf-control
+kclhand_control:
+	ubuntu: ros-indigo-kclhand-control
+kclhand_description:
+	ubuntu: ros-indigo-kclhand-description
+robotino_arm_base_control:
+	ubuntu: ros-indigo-arm-base-control
+robotino_arm_description:
+	ubuntu: ros-indigo-robotino-arm-description
+
+
 squirrel_expression:
   ubuntu: ros-indigo-squirrel-expression
 dlib:
