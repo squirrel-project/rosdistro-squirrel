@@ -1,6 +1,8 @@
 ##SQUIREL COMMON
 squirrel_3d_mapping_msgs:
   ubuntu: ros-indigo-squirrel-3d-mapping-msgs
+squirrel_hri_msgs:
+  ubuntu: ros-indigo-squirrel-hri-msgs
 squirrel_kclhand_msgs:
   ubuntu: ros-indigo-squirrel-kclhand-msgs
 squirrel_localizer_msgs:
@@ -23,16 +25,21 @@ squirrel_rgbd_mapping_msgs:
   ubuntu: ros-indigo-squirrel-rgbd-mapping-msgs
 squirrel_sketch_interface_msgs:
   ubuntu: ros-indigo-squirrel-sketch-interface-msgs
+squirrel_speech_msgs:
+  ubuntu: ros-indigo-squirrel-speech-msgs
 robotino_msgs:
   ubuntu: ros-indigo-robotino-msgs
-robotino_msgs:
-  ubuntu: ros-indigo-robotino-msgs
+squirrel_waypoint_msgs:
+  ubuntu: ros-indigo-squirrel-waypoint-msgs
 
 ##ROSPLAN
 rosplan_dispatch_msgs:
   ubuntu: ros-indigo-rosplan-dispatch-msgs
 rosplan_knowledge_msgs:
   ubuntu: ros-indigo-rosplan-knowledge-msgs
+rosplan_planning_system:
+  ubuntu: ros-indigo-rosplan-planning-system
+
 
 ##UIBK MOVEIT TOOLS
 iis_fast_ik:
@@ -41,12 +48,37 @@ iis_robot_dep:
   ubuntu: ros-indigo-iis-robot-dep
 iis_robot_dep:
   ubuntu: ros-indigo-iis-robot-dep
-uibk_moveit_adapter:
-  ubuntu: ros-indigo-uibk-moveit-adapter
-uibk_robot_moveit_config:
-  ubuntu: ros-indigo-uibk-robot-moveit-config
+#uibk_moveit_adapter:
+#  ubuntu: ros-indigo-uibk-moveit-adapter
+#uibk_robot_moveit_config:
+#  ubuntu: ros-indigo-uibk-robot-moveit-config
 uibk_planning_node:
   ubuntu: ros-indigo-uibk-planning-node
-uibk_moveit_tools:
-  ubuntu: ros-indigo-uibk-moveit-tools
+#uibk_moveit_tools:
+#  ubuntu: ros-indigo-uibk-moveit-tools
 
+##KCL HAND
+kclhand_control:
+  ubuntu: ros-indigo-kclhand-control
+
+##SQUIRREL SUBSTITUTE
+airskin:
+  ubuntu: ros-indigo-airskin
+cf_control:
+	ubuntu: ros-indigo-cf-control
+kclhand_control:
+	ubuntu: ros-indigo-kclhand-control
+kclhand_description:
+	ubuntu: ros-indigo-kclhand-description
+robotino_arm_base_control:
+	ubuntu: ros-indigo-arm-base-control
+robotino_arm_description:
+	ubuntu: ros-indigo-robotino-arm-description
+
+
+squirrel_expression:
+  ubuntu: ros-indigo-squirrel-expression
+dlib:
+  ubuntu: libdlib-dev
+csm:
+  ubuntu: ros-indigo-csm
