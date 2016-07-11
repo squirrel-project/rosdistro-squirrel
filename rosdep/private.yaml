@@ -65,15 +65,15 @@ kclhand_control:
 airskin:
   ubuntu: ros-indigo-airskin
 cf_control:
-	ubuntu: ros-indigo-cf-control
+  ubuntu: ros-indigo-cf-control
 kclhand_control:
-	ubuntu: ros-indigo-kclhand-control
+  ubuntu: ros-indigo-kclhand-control
 kclhand_description:
-	ubuntu: ros-indigo-kclhand-description
+  ubuntu: ros-indigo-kclhand-description
 robotino_arm_base_control:
-	ubuntu: ros-indigo-arm-base-control
+  ubuntu: ros-indigo-arm-base-control
 robotino_arm_description:
-	ubuntu: ros-indigo-robotino-arm-description
+  ubuntu: ros-indigo-robotino-arm-description
 
 
 squirrel_expression:
