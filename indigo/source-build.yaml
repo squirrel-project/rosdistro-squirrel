@@ -17,7 +17,7 @@ targets:
     - http://archive.ubuntu.com/ubuntu DISTRO-updates main universe
     - http://10.0.1.187/building/ubuntu DISTRO main
     - http://lcas.lincoln.ac.uk/repos/release DISTRO main
-    - http://doc.openrobotino.org/download/packages/amd64 ./
+    - http://doc.openrobotino.org/download/packages/amd64
     apt_keys:
     - http://packages.ros.org/ros.key
     - http://10.0.1.187/building/public.key
