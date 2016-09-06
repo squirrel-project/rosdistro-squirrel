@@ -1,3 +1,6 @@
+robotino-api2:
+  ubuntu: [robotino-api2]
+
 ##SQUIREL COMMON
 squirrel_3d_mapping_msgs:
   ubuntu: ros-indigo-squirrel-3d-mapping-msgs
