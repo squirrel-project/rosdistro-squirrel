@@ -24,6 +24,7 @@ repositories:
       - squirrel_hri_msgs
       - squirrel_common
       - squirrel_kclhand_msgs
+      - squirrel_3d_localizer_msgs
       - squirrel_localizer_msgs
       - squirrel_manipulation_msgs
       - squirrel_mhand_msgs
