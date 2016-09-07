@@ -19,7 +19,9 @@ repositories:
       version: doc
     release:
       packages:
+      - robotino_description
       - robotino_msgs
+      - squirrel_3d_localizer_msgs
       - squirrel_3d_mapping_msgs
       - squirrel_hri_msgs
       - squirrel_common
@@ -35,6 +37,7 @@ repositories:
       - squirrel_rgbd_mapping_msgs
       - squirrel_sketch_interface_msgs
       - squirrel_speech_msgs
+      - squirrel_vad_msgs
       - squirrel_waypoint_msgs
       tags:
         release: release/indigo/{package}/{version}
