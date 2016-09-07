@@ -2,8 +2,16 @@ robotino-api2:
   ubuntu: [robotino-api2]
 
 ##SQUIREL COMMON
+robotino_description:
+  ubuntu: ros-indigo-robotino-description
+robotino_msgs:
+  ubuntu: ros-indigo-robotino-msgs
+squirrel_3d_localizer_msgs:
+  ubuntu: ros-indigo-squirrel-3d-localizer-msgs
 squirrel_3d_mapping_msgs:
   ubuntu: ros-indigo-squirrel-3d-mapping-msgs
+squirrel_common:
+  ubuntu: ros-indigo-squirrel-common
 squirrel_hri_msgs:
   ubuntu: ros-indigo-squirrel-hri-msgs
 squirrel_kclhand_msgs:
@@ -14,10 +22,10 @@ squirrel_manipulation_msgs:
   ubuntu: ros-indigo-squirrel-manipulation-msgs
 squirrel_mhand_msgs:
   ubuntu: ros-indigo-squirrel-mhand-msgs
-squirrel_object_perception_msgs:
-  ubuntu: ros-indigo-squirrel-object-perception-msgs
 squirrel_navigation_msgs:
   ubuntu: ros-indigo-squirrel-navigation-msgs
+squirrel_object_perception_msgs:
+  ubuntu: ros-indigo-squirrel-object-perception-msgs
 squirrel_person_tracker_msgs:
   ubuntu: ros-indigo-squirrel-person-tracker-msgs
 squirrel_planning_knowledge_msgs:
@@ -30,8 +38,8 @@ squirrel_sketch_interface_msgs:
   ubuntu: ros-indigo-squirrel-sketch-interface-msgs
 squirrel_speech_msgs:
   ubuntu: ros-indigo-squirrel-speech-msgs
-robotino_msgs:
-  ubuntu: ros-indigo-robotino-msgs
+squirrel_vad_msgs:
+  ubuntu: ros-indigo-squirrel-vad-msgs
 squirrel_waypoint_msgs:
   ubuntu: ros-indigo-squirrel-waypoint-msgs
 
