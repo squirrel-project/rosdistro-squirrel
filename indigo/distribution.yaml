@@ -42,7 +42,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: git@github.com:squirrel-project/squirrel_common-release.git
-      version: 0.0.19-1
+      version: 0.0.20-1
     source:
       type: git
       url: git@github.com:squirrel-project/squirrel_common.git
