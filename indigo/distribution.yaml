@@ -102,6 +102,12 @@ repositories:
       url: git@github.com:squirrel-project/squirrel_hri.git
       version: indigo_dev
     status: developed
+  kukadu:
+    source:
+      type: git
+      url: git@github.com:squirrel-project/kukadu.git
+      version: indigo_dev
+    status: developed
 #  website:
 #    source:
 #      type: git
