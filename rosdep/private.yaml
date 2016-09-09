@@ -51,6 +51,9 @@ robotino_safety:
 uibk_robot_driver:
   ubuntu: ros-indigo-uibk-robot-driver
 
+##SQUIRREL BRINGUP
+robotino_bringup:
+  ubuntu: ros-indigo-robotino-bringup
 
 ##ROSPLAN
 rosplan_dispatch_msgs:
