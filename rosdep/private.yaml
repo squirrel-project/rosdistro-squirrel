@@ -1,7 +1,7 @@
 robotino-api2:
   ubuntu: [robotino-api2]
 
-##SQUIREL COMMON
+##SQUIRREL COMMON
 robotino_description:
   ubuntu: ros-indigo-robotino-description
 robotino_msgs:
@@ -42,6 +42,15 @@ squirrel_vad_msgs:
   ubuntu: ros-indigo-squirrel-vad-msgs
 squirrel_waypoint_msgs:
   ubuntu: ros-indigo-squirrel-waypoint-msgs
+
+##SQUIRREL DRIVER
+robotino_driver:
+  ubuntu: ros-indigo-robotino-driver
+robotino_safety:
+  ubuntu: ros-indigo-robotino-safety
+uibk_robot_driver:
+  ubuntu: ros-indigo-uibk-robot-driver
+
 
 ##ROSPLAN
 rosplan_dispatch_msgs:
