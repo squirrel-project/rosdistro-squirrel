@@ -25,6 +25,7 @@ repositories:
       - squirrel_3d_mapping_msgs
       - squirrel_hri_msgs
       - squirrel_common
+      - squirrel_dynamic_filter_msgs
       - squirrel_kclhand_msgs
       - squirrel_localizer_msgs
       - squirrel_manipulation_msgs
@@ -42,7 +43,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: git@github.com:squirrel-project/squirrel_common-release.git
-      version: 0.0.20-0
+      version: 0.0.21-0
     source:
       type: git
       url: git@github.com:squirrel-project/squirrel_common.git
