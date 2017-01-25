@@ -104,3 +104,8 @@ dlib:
   ubuntu: libdlib-dev
 csm:
   ubuntu: ros-indigo-csm
+
+v4r:
+  ubuntu: ros-indigo-v4r
+classifier_srv_definitions:
+  ubuntu: ros-indigo-classifier-srv-definitions
