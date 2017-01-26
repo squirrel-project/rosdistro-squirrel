@@ -50,6 +50,8 @@ robotino_safety:
   ubuntu: ros-indigo-robotino-safety
 uibk_robot_driver:
   ubuntu: ros-indigo-uibk-robot-driver
+squirrel_softhand:
+  ubuntu: ros-indigo-squirrel-softhand
 
 ##SQUIRREL BRINGUP
 robotino_bringup:
@@ -62,7 +64,6 @@ rosplan_knowledge_msgs:
   ubuntu: ros-indigo-rosplan-knowledge-msgs
 rosplan_planning_system:
   ubuntu: ros-indigo-rosplan-planning-system
-
 
 ##UIBK MOVEIT TOOLS
 iis_fast_ik:
@@ -79,6 +80,7 @@ uibk_moveit_tools:
   ubuntu: ros-indigo-uibk-moveit-tools
 kukadu:
   ubuntu: ros-indigo-kukadu
+
 ##KCL HAND
 kclhand_control:
   ubuntu: ros-indigo-kclhand-control
