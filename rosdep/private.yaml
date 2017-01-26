@@ -42,6 +42,8 @@ squirrel_vad_msgs:
   ubuntu: ros-indigo-squirrel-vad-msgs
 squirrel_waypoint_msgs:
   ubuntu: ros-indigo-squirrel-waypoint-msgs
+softhand_description:
+  ubuntu: ros-indigo-softhand-description
 
 ##SQUIRREL DRIVER
 robotino_driver:
