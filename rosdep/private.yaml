@@ -101,6 +101,9 @@ robotino_arm_base_control:
 robotino_arm_description:
   ubuntu: ros-indigo-robotino-arm-description
 
+##SQUIRREL CALIBRATION
+cob_fiducials:
+  ubuntu: ros-indigo-cob-fiducials
 
 squirrel_expression:
   ubuntu: ros-indigo-squirrel-expression
