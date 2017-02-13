@@ -21,6 +21,7 @@ repositories:
       packages:
       - robotino_description
       - robotino_msgs
+      - softhand_description
       - squirrel_3d_localizer_msgs
       - squirrel_3d_mapping_msgs
       - squirrel_hri_msgs
@@ -43,7 +44,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: git@github.com:squirrel-project/squirrel_common-release.git
-      version: 0.0.22-0
+      version: 0.0.23-0
     source:
       type: git
       url: git@github.com:squirrel-project/squirrel_common.git
