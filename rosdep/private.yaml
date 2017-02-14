@@ -6,12 +6,16 @@ robotino_description:
   ubuntu: ros-indigo-robotino-description
 robotino_msgs:
   ubuntu: ros-indigo-robotino-msgs
+softhand_description:
+  ubuntu: ros-indigo-softhand.description
 squirrel_3d_localizer_msgs:
   ubuntu: ros-indigo-squirrel-3d-localizer-msgs
 squirrel_3d_mapping_msgs:
   ubuntu: ros-indigo-squirrel-3d-mapping-msgs
 squirrel_common:
   ubuntu: ros-indigo-squirrel-common
+squirrel_dynamic_filter_msgs:
+  ubuntu: ros-indigo-squirrel-dynamic-filter-msgs
 squirrel_hri_msgs:
   ubuntu: ros-indigo-squirrel-hri-msgs
 squirrel_kclhand_msgs:
@@ -42,8 +46,6 @@ squirrel_vad_msgs:
   ubuntu: ros-indigo-squirrel-vad-msgs
 squirrel_waypoint_msgs:
   ubuntu: ros-indigo-squirrel-waypoint-msgs
-softhand_description:
-  ubuntu: ros-indigo-softhand-description
 
 ##SQUIRREL DRIVER
 robotino_driver:
