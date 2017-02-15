@@ -84,6 +84,8 @@ uibk_moveit_tools:
   ubuntu: ros-indigo-uibk-moveit-tools
 kukadu:
   ubuntu: ros-indigo-kukadu
+python3-4:
+  ubuntu: python3.4-dev
 
 ##KCL HAND
 kclhand_control:
@@ -115,6 +117,6 @@ csm:
   ubuntu: ros-indigo-csm
 
 v4r:
-  ubuntu: ros-indigo-v4r
+  ubuntu: v4r
 classifier_srv_definitions:
   ubuntu: ros-indigo-classifier-srv-definitions
