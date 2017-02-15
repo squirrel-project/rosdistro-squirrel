@@ -44,6 +44,8 @@ squirrel_speech_msgs:
   ubuntu: ros-indigo-squirrel-speech-msgs
 squirrel_vad_msgs:
   ubuntu: ros-indigo-squirrel-vad-msgs
+squirrel_view_controller_msgs:
+  ubuntu: ros-indigo-squirrel-view-controller-msgs
 squirrel_waypoint_msgs:
   ubuntu: ros-indigo-squirrel-waypoint-msgs
 
