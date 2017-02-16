@@ -15,11 +15,11 @@ targets:
     - http://archive.ubuntu.com/ubuntu DISTRO main universe
     - http://archive.ubuntu.com/ubuntu DISTRO-updates main universe
     - http://153.97.4.193/building/ubuntu DISTRO main
-#    - http://lcas.lincoln.ac.uk/repos/release DISTRO main
+    - http://lcas.lincoln.ac.uk/repos/release DISTRO main
     apt_keys:
     - http://packages.ros.org/ros.key
     - http://153.97.4.193/building/public.key
-#    - http://lcas.lincoln.ac.uk/repos/public.key
+    - http://lcas.lincoln.ac.uk/repos/public.key
   ubuntu:
     trusty:
       amd64:
