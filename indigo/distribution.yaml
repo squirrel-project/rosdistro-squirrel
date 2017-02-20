@@ -40,11 +40,12 @@ repositories:
       - squirrel_sketch_interface_msgs
       - squirrel_speech_msgs
       - squirrel_vad_msgs
+      - squirrel_view_controller_msgs
       - squirrel_waypoint_msgs
       tags:
         release: release/indigo/{package}/{version}
       url: git@github.com:squirrel-project/squirrel_common-release.git
-      version: 0.0.23-0
+      version: 0.0.24-0
     source:
       type: git
       url: git@github.com:squirrel-project/squirrel_common.git
