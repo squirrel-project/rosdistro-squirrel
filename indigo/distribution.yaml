@@ -51,12 +51,6 @@ repositories:
       url: git@github.com:squirrel-project/squirrel_common.git
       version: indigo_dev
     status: maintained
-#  squirrel_substitute:
-#    source:
-#      type: git
-#      url: git@github.com:squirrel-project/squirrel_substitute.git
-#      version: indigo_dev
-#    status: developed
   squirrel_robotino:
     source:
       type: git
@@ -99,30 +93,12 @@ repositories:
       url: git@github.com:squirrel-project/squirrel_planning.git
       version: indigo_dev
     status: developed
-#  squirrel_kclhand:
-#    source:
-#      type: git
-#      url: git@github.com:squirrel-project/squirrel_kclhand.git
-#      version: indigo_dev
-#    status: developed
   squirrel_hri:
     source:
       type: git
       url: git@github.com:squirrel-project/squirrel_hri.git
       version: indigo_dev
     status: developed
-# kukadu:
-#   source:
-#     type: git
-#     url: git@github.com:squirrel-project/kukadu.git
-#     version: indigo_dev
-#   status: developed
-#  website:
-#    source:
-#      type: git
-#      url: git@github.com:squirrel-project/website.git
-#      version: master
-#    status: developed
 type: distribution
 version: 1
 
