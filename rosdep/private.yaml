@@ -60,6 +60,8 @@ squirrel_softhand:
   ubuntu: ros-indigo-squirrel-softhand
 raspberry_screen:
   ubuntu: ros-indigo-raspberry-screen
+squirrel_interaction:
+  ubuntu: ros-indigo-squirrel-interaction
 
 ##SQUIRREL BRINGUP
 robotino_bringup:
