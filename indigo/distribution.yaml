@@ -16,7 +16,7 @@ repositories:
     doc:
       type: git
       url: git@github.com:squirrel-project/squirrel_common.git
-      version: doc
+      version: indigo_dev
     release:
       packages:
       - robotino_description
@@ -32,6 +32,7 @@ repositories:
       - squirrel_kclhand_msgs
       - squirrel_manipulation_msgs
       - squirrel_mhand_msgs
+      - squirrel_motion_planner_msgs
       - squirrel_navigation_msgs
       - squirrel_object_perception_msgs
       - squirrel_person_tracker_msgs
@@ -45,7 +46,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: git@github.com:squirrel-project/squirrel_common-release.git
-      version: 0.0.29-0
+      version: 0.0.30-0
     source:
       type: git
       url: git@github.com:squirrel-project/squirrel_common.git
