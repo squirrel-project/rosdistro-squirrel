@@ -37,6 +37,7 @@ repositories:
       - squirrel_object_perception_msgs
       - squirrel_person_tracker_msgs
       - squirrel_planning_knowledge_msgs
+      - squirrel_planning_msgs
       - squirrel_prediction_msgs
       - squirrel_safety_msgs
       - squirrel_speech_msgs
@@ -46,7 +47,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: git@github.com:squirrel-project/squirrel_common-release.git
-      version: 0.0.31-0
+      version: 0.0.32-0
     source:
       type: git
       url: git@github.com:squirrel-project/squirrel_common.git

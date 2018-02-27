@@ -36,6 +36,8 @@ squirrel_person_tracker_msgs:
   ubuntu: ros-indigo-squirrel-person-tracker-msgs
 squirrel_planning_knowledge_msgs:
   ubuntu: ros-indigo-squirrel-planning-knowledge-msgs
+squirrel_planning_msgs:
+  ubuntu: ros-indigo-squirrel-planning-msgs
 squirrel_prediction_msgs:
   ubuntu: ros-indigo-squirrel-prediction-msgs
 squirrel_safety_msgs:
